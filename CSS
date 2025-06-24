@@ -1,30 +1,30 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background: #f5f5f5;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 .c-site-header {
-  background-color: #333;
+  background-color: #222;
   color: white;
   padding: 1em;
   text-align: center;
 }
 
-nav ul {
+.c-site-header nav ul {
   list-style: none;
   padding: 0;
   margin-top: 10px;
 }
 
-nav li {
+.c-site-header nav li {
   display: inline;
   margin: 0 10px;
 }
 
-nav a {
+.c-site-header a {
   color: white;
   text-decoration: none;
 }
@@ -39,8 +39,12 @@ img {
   margin-bottom: 20px;
 }
 
+section {
+  margin-bottom: 40px;
+}
+
 footer {
-  background-color: #333;
+  background-color: #222;
   color: white;
   padding: 1em;
   text-align: center;
